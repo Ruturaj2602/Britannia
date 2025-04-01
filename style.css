@@ -1,4 +1,4 @@
-/* ✅ Global Styles */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -7,7 +7,7 @@ body {
     color: #333;
 }
 
-/* ✅ Navigation Bar */
+/*  Navigation Bar */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -18,7 +18,7 @@ body {
     
 }
 
-/* ✅ Left & Right Navigation */
+/*  Left & Right Navigation */
 .nav-left, .nav-right {
     display: flex;
     align-items: center;
@@ -42,7 +42,7 @@ body {
     font-weight: bold;
 }
 
-/* ✅ Center Logo */
+/*  Center Logo */
 .logo img {
     width: 120px;
     display: inline-block;
@@ -52,7 +52,7 @@ body {
     text-align: center;
 }
 
-/* ✅ Navigation Icons */
+/*  Navigation Icons */
 .nav-icons {
     display: flex;
     align-items: center;
@@ -74,7 +74,6 @@ body {
     font-weight: bold;
 }
 
-/* ✅ Fixing Header Menu on Next Line */
 .header-menu {
     display: block; /* Ensure it takes full width */
     width: 100%;
@@ -103,7 +102,7 @@ body {
     color: black;
 }
 
-/* ✅ Fix Navigation Bar */
+/*  Navigation Bar */
 
 .header-text{
     width: 100%;
@@ -197,7 +196,7 @@ background: #EDD234;
 
  }
 
-/* ✅ Hero Section */
+/*  */
 .hero {
     text-align: center;
     padding: 100px 20px;
@@ -213,7 +212,7 @@ background: #EDD234;
     font-size: 24px;
 }
 
-/* ✅ Snack Triggers */
+/* Snack Triggers */
 .snack-triggers {
     text-align: center;
     padding: 60px 20px;
@@ -233,7 +232,7 @@ background: #EDD234;
     font-weight: bold;
 }
 
-/* ✅ Information Cards */
+
 .info-section {
     display: flex;
     justify-content: center;
@@ -260,11 +259,11 @@ background: #EDD234;
 
 
 
-/* ✅ Animations */
+
 button:hover {
     background: #C1000D;
 }
-/* ✅ Responsive Design */
+
 @media (max-width: 900px) {
     .navbar {
         flex-direction: column;
@@ -281,7 +280,7 @@ button:hover {
 }
 
 
-/* ✅ Snack Triggers Section */
+/*  Snack Triggers Section */
 .snack-triggers {
     text-align: center;
     background: #fdef9d; /* Light yellow background */
@@ -303,7 +302,7 @@ button:hover {
     margin: 0 auto 30px auto;
 }
 
-/* ✅ Circular Layout */
+/* Circular Layout */
 .trigger-cycle {
     position: relative;
     width: 500px;
@@ -331,7 +330,7 @@ button:hover {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
 
-/* ✅ Snack Trigger Items */
+/*  Snack Trigger Items */
 .trigger-item {
     position: absolute;
     width: 180px;
@@ -351,7 +350,7 @@ button:hover {
     
 }
 
-/* ✅ Correctly Position Icons in Circular Layout */
+/*  Position Icons in Circular Layout */
 #study-snack { top: 10%; left: 50%; transform: translateX(-50%); }
 #no-schedule { top: 30%; left: -20%; }
 #sleep-snack { bottom: 50%; left: -20%; top: 60%; right:-10% ;}
@@ -359,7 +358,7 @@ button:hover {
 #fizzy-fix { top: 60%; right: 10%; left: 85%;}
 #meal-skipping { bottom: 10%; left: 50%; transform: translateX(-50%); }
 
-/* ✅ Properly Position Text Relative to Icons */
+/* ✅ Position Text Relative to Icons */
 .trigger-item.top .trigger-text {
     position: absolute;
     bottom: 100%;
@@ -384,7 +383,7 @@ button:hover {
     text-align: left;
 }
 
-/* ✅ Responsive Design */
+/*  Responsive Design */
 @media (max-width: 768px) {
     .trigger-cycle {
         width: 100%;
