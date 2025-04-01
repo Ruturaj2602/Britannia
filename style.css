@@ -45,7 +45,7 @@ body {
 /* ✅ Center Logo */
 .logo img {
     width: 120px;
-    display: inline-block;
+    display: block;
 }
 .logo {
     flex-grow: 1;
