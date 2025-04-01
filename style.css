@@ -15,7 +15,7 @@ body {
     padding: 15px 50px;
     background:white;
     color:black;
-    width:100%;
+    
 }
 
 /* ✅ Left & Right Navigation */
@@ -45,7 +45,7 @@ body {
 /* ✅ Center Logo */
 .logo img {
     width: 120px;
-    display: block;
+    display: inline-block;
 }
 .logo {
     flex-grow: 1;
