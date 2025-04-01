@@ -63,11 +63,6 @@ body {
     width: 24px;
     margin: 0 10px;
 }
-.navbar .logo img {
-    width: 120px;
-    display: block;
-    margin: 0 auto;  /* Center the image */
-}
 
 
 .shop-btn {
